@@ -8,27 +8,52 @@
 
 a{
     text-decoration: none;
-    padding: 10px;
+    padding: 20px;
+    color: white;
+    font-size: 1em;
+    font-weight: 400;
+
+    
 }
-.header{
+header{
+   border-bottom: 2px solid transparent;
+   border-image: linear-gradient(to right, transparent, #7dd9fd, transparent) 1;
+}
+
+header.header{
     display: flex;
     justify-content: space-between;
-    background-color:#192245f6;
+    background-color:#192245;
     height: 7vh;
 }
 
-
 header > p.logo{
-    background-image: url(../imagens/favicon/);
+    background-image: url(../imagens/favicon/desenvolvedor-64px.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 40px 8px;
+
     color: white;
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.548);
     font-size: 1.5em;
     font-weight: 600;
     padding-left: 100px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
-.menu > ul{
+nav.menu > ul{
     display: flex;
     list-style-type: none;
+    margin-top: 20px;
+    margin-right: 50px;
     
+}
+
+li > a.mod{
+    color: #6abbdc ;
+    text-shadow: 0px 0px 2px #6abcdc9d ;
+}
+
+li > a{
+    text-shadow: 0px 0px 2px rgba(255, 255, 255, 0.562);
 }
